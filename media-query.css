@@ -25,5 +25,11 @@
 @media screen and (min-width: 992px) {
     #login {
         width: 950px;
+        display: flex;
+    }
+
+    .imagen {
+        width: 70%;
+        height: 100%;
     }
 }

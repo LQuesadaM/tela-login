@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* Break Point */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     #login {
@@ -12,7 +13,7 @@
         width: 300px;
         height: 100%;
         background-size: cover;
-        background-repeat: no-repeat;
+        background-position: center;
     }
 
     .formulario {
@@ -21,6 +22,8 @@
     }
 
 }
+
+
 
 @media screen and (min-width: 992px) {
     #login {
@@ -31,5 +34,9 @@
     .imagen {
         width: 70%;
         height: 100%;
+    }
+
+    .formulario {
+        padding: 20px;
     }
 }

@@ -3,6 +3,10 @@
 /* Break Point */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        
+    }
+
     #login {
         width: 700px;
         display: flex;
@@ -20,9 +24,7 @@
         width: 400px;
         padding: 50px;
     }
-
 }
-
 
 
 @media screen and (min-width: 992px) {
